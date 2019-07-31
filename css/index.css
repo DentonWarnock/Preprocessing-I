@@ -241,3 +241,46 @@ body {
     width: 100%;
   }
 }
+.work-history h2 {
+  margin: 1.5rem 0;
+  font-size: 3rem;
+}
+@media (max-width: 500px) {
+  .work-history h2 {
+    text-align: center;
+  }
+}
+.work-history table {
+  margin-bottom: 2rem;
+}
+.work-history table th {
+  font-weight: bold;
+}
+.work-history table td,
+.work-history table th {
+  text-align: left;
+  padding: 0.8rem;
+  border: 1px solid lightgray;
+}
+.work-history table tr:nth-child(even) {
+  background-color: #6f6fe4;
+}
+footer .contact h2 {
+  margin: 1.5rem 0;
+  font-size: 3rem;
+}
+footer .contact p {
+  line-height: 1.8rem;
+}
+@media (max-width: 500px) {
+  footer .contact {
+    text-align: center;
+  }
+}
+footer .copyright {
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #6f6fe4;
+}
